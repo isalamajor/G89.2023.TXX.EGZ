@@ -34,7 +34,7 @@ def main():
     strRes = res.__str__()
     print(strRes)
     EncodeRes = Encode(strRes)
-    print("Encoded Res "+ EncodeRes)
+    print("Encoded Res ", EncodeRes)
     DecodeRes = Decode(EncodeRes)
     print("Decoded Res: " + DecodeRes)
     print("Codew: " + res.PRODUCT_CODE)
