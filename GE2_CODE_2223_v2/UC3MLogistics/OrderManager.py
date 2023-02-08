@@ -6,10 +6,9 @@ class OrderManager:
     def __init__(self):
         pass
 
-    def ValidateEAN13( self, str: eAn13 ):
+    def ValidateEAN13( self, eAn13 ):
         # PLEASE INCLUDE HERE THE CODE FOR VALIDATING THE GUID
         # RETURN TRUE IF THE GUID IS RIGHT, OR FALSE IN OTHER CASE
-        str1 =
         return True
 
     def ReadproductcodefromJSON( self, fi ):
